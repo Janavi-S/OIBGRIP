@@ -1,0 +1,312 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+    padding:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#home{
+    width:100%;
+    height:100vh;
+    position:relative;
+    background-color: rgba(0,0,0,0.1);
+    background: url("https://wallpaperaccess.com/full/1657858.jpg");
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0px;
+    top:0px;
+    width:100%;
+    background-color: rgba(25,0,0,0.2);
+}
+nav ul{
+    display: flex;
+    padding-top:15px;
+}
+nav ul li a{
+    height:300px;
+    margin:3px;
+    padding:15px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 550;
+    color: #d62a2a;
+}  
+nav ul li a:hover{
+    color:#fff;
+    box-shadow: 5px 10px 30px rgba(189, 13, 27, 0.3);
+}
+.logo{
+    font-weight: 600;
+    color: #d62a2a;
+    font-size: 1.3rem;
+    padding-top:13px;
+    margin-right: 100px;
+}
+#container{
+    margin:auto;
+    width:550px;
+    height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    top:200px;
+}
+#inner-container{
+    width:450px;
+    height:450px;
+}
+.header{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+.header1{
+    font-size:30px;
+}
+.inner-header{
+    font-size: 2.5rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#btn{
+    font-size: 20px;
+    border-radius: 20px;
+   background-color: #d62a2a;
+  border-style: none;
+  padding: 10px;
+}
+#btn:hover{
+    background-color: rgba(255, 255, 255,0.4);
+    transition-timing-function: ease-in;
+    transition-delay: 0.2s;
+    cursor: pointer;
+}
+#about{
+    width:100%;
+    height:100vh;
+}
+.about_page{
+    height:100%;
+}
+#about_head{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin: auto;
+}
+.aboutHead
+{
+    margin-top: 100px;
+    font-size: 30px;
+    color: rgba(0,0,0,0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content{
+    width:80%;
+    margin:auto;
+    margin-top:40px;
+}
+.about_container{
+    width:80%;
+    height: 60%;
+    margin: auto;
+    display: flex;
+}
+.about_para{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 5px 10px 30px rgba(189, 13, 27, 0.3);
+    background-size: cover;
+}
+.column{
+    flex:1 0;
+}
+#col_right{
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 27px;
+    background-color:lightgray;
+    box-shadow: 5px 10px 30px rgba(189, 13, 27, 0.3);
+    padding:20px;
+}
+#col{
+    background-color: #d62a2a;
+    font-size: 1.2em;
+    border-style: none;
+    padding:8px 13px 8px 13px;
+    color:blanchedalmond;
+    border-radius: 3px;
+    cursor:pointer;
+}
+#col:hover{
+    transition: ease-in;
+    color:#000;
+}
+#skills{
+    width:100%;
+    height:100vh;
+}  
+.skillsDiv{
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+.box1{
+    width: 90%;
+    height: 80%;
+    margin-left: 20px;
+    box-shadow: 5px 10px 30px rgba(189, 13, 27, 0.3);
+    margin-top: 50px;
+    background-color: rgba(0,0,0,0.1);
+}
+#projects{
+    height:100vh;
+}
+.proj-info{
+	position:absolute;
+	top:0;left:0;
+	height: 100%;
+	width:100%;
+	text-align:center;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column; 
+    border-radius: 20px;
+}
+.proj-info:hover{
+	transform:scaleY(0); 
+	transition:1s;
+}
+.proj-info h1{
+	padding-top:10px;
+	padding-bottom: 20px;
+	color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.proj-info p{
+    padding: 20px 0 20px 0;
+    color:#000; 
+    font-size: 1.4em;    
+    margin:10px 20px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+.image{
+    border-radius: 20px;
+    height: 100%;
+    width:100%;
+}
+#Contact{
+    height:95vh;
+}
+.contact{
+    color:#ebad02;
+    font-size: 30px;
+    padding-left: 13px;
+}
+.contact1{
+font-size: 20px;
+color:#ebad02;
+padding-bottom: 40px;
+padding-top: 50px;
+}
+.form{
+	width:34vw;
+    display: flex;
+    flex-direction: column;
+    margin-block: auto;
+    margin-right: 250px;
+}
+.input{
+	padding: 10px 10px 10px 30px;
+	margin-top:20px;
+	margin-bottom: 20px;
+	width:70%;
+    margin-left: 14px;
+	font-size: 15px;
+	border-radius: 5px;
+    border: 2px solid gray;
+}
+#msg{
+	font-size: 20px;
+	padding-bottom:180px;
+	border-radius: 5px;
+    width:70%;
+    margin-left: 15px;
+    border: 2px solid gray;
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+.input1{
+	position:relative;
+    font-size: 20px;
+    padding:5px 10px 5px 10px;
+    border-radius: 20px;
+    margin-left: 400px;
+    color:#fff;
+    background: brown;
+    right:270px;
+    border:none;
+}
+.input1:hover{
+	background: black;
+}
+.footer{
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+    flex-direction: column;
+	flex-wrap: wrap;
+    background: #d62a2a;
+    width:20vw;
+    height:100vh;
+}
+.locations{
+	margin-top:2%;
+}
+.locations h2{
+	padding-bottom: 20%;
+}
+.locations ul li{
+	list-style: none;
+	font-size: 15px;
+	padding: 5px;
+    color:rgba(255,255,255,0.7);
+}
+.fa{
+    padding: 10px;
+    margin:20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+}
+.fa:hover{
+    opacity:0.7;
+}
+.fa-twitter{
+    background: #55ACEE;
+    color:white
+}
+.fa-linkedin{
+    background: #007bb5;  
+  color: white;  
+}
+.fa-github {  
+    color: #000;
+} 
