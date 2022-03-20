@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <div class="head">
+        <h>TEMPERATURE CONVERTER</h>
+    </div>
+    <div id="temp">
+    <form  onsubmit="calculate(); return false">
+        <label for="temperature" style="background-color:#fff;height: 50%;font-size: 1.2rem;">Convert Celsius to Fahrenheit and vice versa</label>
+        <input type="number" name="temperature" id="temperature">
+        <select name="tempconvert" id="tempconvert">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+        </select><br/>
+        <input type="submit" name="temperature" id="btn"><br/>
+        <span id="output">RESULT</span>
+    </form>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
