@@ -1,3 +1,3 @@
-# oibsip_task1
-Completed level 1 tasks in Oasis Infobyte web development internship. 
+# cod_soft
+Completed level 1 tasks in CodSoft web development internship. 
 Developed a landing page, portfolio and temperature converter using HTML, CSS and JavaScript.
